@@ -45,6 +45,10 @@
       window.location.reload()
     }
 
+    function moveRight() {
+        box.style.transform = "translateX(500px)"  
+    }
+
     function addText() {
         let labelInputValue = document.getElementById('labelInput').value
         box.innerText = labelInputValue
@@ -55,6 +59,10 @@
         let bgColorInput = document.querySelector("#bgColorInput")
         box.style.backgroundColor = bgColorInput.value
         bgColorInput.value = ""
+    }
+
+    function moveRight() {
+
     }
 
 
